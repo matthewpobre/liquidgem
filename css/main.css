@@ -1,0 +1,160 @@
+* {
+  background-color: #ebebeb;
+  color: #464646;
+  font-family: arial;
+}
+nav {
+  font-family: helvetica;
+  padding: 10px;
+  top: 0px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+li{
+  display: inline;
+}
+
+#left-nav {
+  font-family: brush script std;
+  font-size: 25px;
+}
+
+li i {
+  color: pink;
+}
+
+#right-nav {
+  float: right;
+}
+
+#right-nav li {
+  padding: 0 15px;
+}
+
+hr {
+  border: 1px solid;
+}
+
+#hello {
+  display:block;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h1 {
+  letter-spacing: 2px;
+}
+
+span {
+  color: pink;
+}
+
+#hello img {
+  object-fit: scale-down;
+  border-radius: 10px;
+  width: 100%;
+  height: 20%;
+  margin-top: 40px;
+}
+
+#my-info {
+display: inline-block;
+text-align: center;
+}
+
+#about-me {
+  display: inline-block;
+  width: 45%;
+}
+
+#my-work {
+  display: inline-block;
+  width: 45%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: pink;
+  font-family: brush script std;
+  font-weight: lighter;
+}
+
+#photos {
+  display: block;
+}
+
+ul #top-row {
+    margin: 0 auto;
+}
+
+#top-row li {
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  width: 15%;
+  max-height: 15%;
+  overflow: hidden;
+  background-color: white;
+}
+
+#top-row li img {
+  width: 100%;
+height: 15%;
+}
+
+ul #bottom-row {
+    margin: 0 auto;
+}
+
+#bottom-row li {
+  border: 1px solid;
+  border-radius: 10px;
+  display: inline-block;
+  width: 15%;
+  max-height: 15%;
+  overflow: hidden;
+  background-color: white;
+}
+
+#bottom-row li img {
+  width: 100%;
+height: 15%;
+}
+
+#bottom-row li p,
+#top-row li p {
+  background-color: white;
+}
+
+footer {
+  background-color: #464646;
+  display: inline-block;
+  width: 100%;
+}
+
+footer h2 {
+  background-color: #464646;
+  float: left;
+}
+
+form {
+  background-color: #464646;
+}
+
+form textarea {
+  display: block;
+}
+
+button {
+  border: none;
+}
+
+#left-footer {
+  display: block;
+  width: 100%;
+
+}
